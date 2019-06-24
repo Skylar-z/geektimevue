@@ -1,6 +1,8 @@
 <template>
   <div>
     <!-- <cBindData @on-input-phone="handleinputphone"></cBindData> -->
+
+    
     <cBindData v-model="phoneInfo" :zip-code.sync="zipCode"></cBindData>
     <cBindData
       :phone-info="phoneInfo"
