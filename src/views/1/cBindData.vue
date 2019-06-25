@@ -13,6 +13,7 @@
 <script>
 export default {
       model: {
+    jia
     prop: "phoneInfo", // 默认 value
     event: "change" // 默认 input
   },
