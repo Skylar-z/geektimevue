@@ -41,6 +41,13 @@ export default new Router({
       component: function () { 
         return import('./views/1/index.vue')
       }
+    },
+    {
+      path: '/toupdate',
+      name: 'toupdate',
+      component: function () { 
+        return import('./views/1/Update.vue')
+      }
     }
   ]
 })
