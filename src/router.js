@@ -34,6 +34,13 @@ export default new Router({
       component: function () { 
         return import('./views/1/BindData.vue')
       }
+    },
+    {
+      path: '/toindex',
+      name: 'toindex',
+      component: function () { 
+        return import('./views/1/index.vue')
+      }
     }
   ]
 })

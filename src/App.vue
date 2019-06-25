@@ -3,7 +3,9 @@
     <div id="nav">
       <router-link to="/event">事件</router-link> |
       <router-link to="/slot">插槽</router-link> | 
-       <router-link to="/bindData">数据绑定</router-link> 
+       <router-link to="/bindData">数据绑定</router-link> |
+       <router-link to="/toindex">index</router-link> |
+
     </div>
     <router-view/>
   </div>
