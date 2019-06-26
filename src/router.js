@@ -48,6 +48,13 @@ export default new Router({
       component: function () { 
         return import('./views/1/Update.vue')
       }
+    },{
+      path: '/compute',
+      name: 'compute',
+      component: function () { 
+        return import('./views/1/Compute.vue')
+      }
+      
     }
   ]
 })

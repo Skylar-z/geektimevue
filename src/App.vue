@@ -6,6 +6,7 @@
        <router-link to="/bindData">数据绑定</router-link> |
        <router-link to="/toindex">index</router-link> |
        <router-link to="/toupdate">更新数据</router-link> |
+       <router-link to="/compute">防抖</router-link> |
 
     </div>
     <router-view/>
