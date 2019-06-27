@@ -55,6 +55,15 @@ export default new Router({
         return import('./views/1/Compute.vue')
       }
       
+    },{
+      path: '/funccomp',
+      name: 'funccomp',
+      component: function () { 
+        return import('./views/1/Funccomp.vue')
+      }
+      
     }
+    
+
   ]
 })

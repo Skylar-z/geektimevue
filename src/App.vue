@@ -7,7 +7,7 @@
        <router-link to="/toindex">index</router-link> |
        <router-link to="/toupdate">更新数据</router-link> |
        <router-link to="/compute">防抖</router-link> |
-
+<router-link to="/funccomp"> 函数式组件</router-link> |
     </div>
     <router-view/>
   </div>
