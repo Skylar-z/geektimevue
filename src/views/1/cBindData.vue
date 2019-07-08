@@ -3,9 +3,9 @@
     <input type="text" placeholder="手机号" :value="phoneInfo.phone" @input="handleInput">
     <input type="text" placeholder="邮箱" :value="zipCode" @input="handleInputZ">
 
-    <p>
+    <!-- <p>
       <input type="checkbox" :checked="checked" @change="handleChange">
-    </p>
+    </p> -->
   </div>
 </template>
 
